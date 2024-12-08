@@ -10,7 +10,6 @@ import Feature8 from "../Images/FeatureProduct1.png";
 import News1 from "../Images/TopCategory2.png";
 import News2 from "../Images/TopCategory1.png";
 import News3 from "../Images/FeatureProduct2.png";
-// import News4 from "../Images/"
 function page() {
   return (
     <div>
@@ -34,8 +33,7 @@ function page() {
                 <p className="text-xl font-bold">$20</p>
                 <p className="line-through text-sm text-gray-500">$39</p>
               </div>
-              <div className="w-10 h-10 bg-gray-400 rounded-full self-end mt-2"></div>{" "}
-              {/* Placeholder for cart logo */}
+              <div className="w-10 h-10 bg-gray-400 rounded-full self-end mt-2"></div>
             </div>
           </div>
 
@@ -118,8 +116,7 @@ function page() {
                 <p className="text-xl font-bold">$20</p>
                 <p className="line-through text-sm text-gray-500">$39</p>
               </div>
-              <div className="w-10 h-10 bg-gray-400 rounded-full self-end mt-2"></div>{" "}
-              {/* Placeholder for cart logo */}
+              <div className="w-10 h-10 bg-gray-400 rounded-full self-end mt-2"></div>
             </div>
           </div>
 
@@ -202,8 +199,7 @@ function page() {
                 <p className="text-xl font-bold">$20</p>
                 <p className="line-through text-sm text-gray-500">$39</p>
               </div>
-              <div className="w-10 h-10 bg-gray-400 rounded-full self-end mt-2"></div>{" "}
-              {/* Placeholder for cart logo */}
+              <div className="w-10 h-10 bg-gray-400 rounded-full self-end mt-2"></div>
             </div>
           </div>
 

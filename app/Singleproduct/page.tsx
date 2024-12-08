@@ -7,10 +7,8 @@ export default function Home() {
   return (
     <div className="max-w-[1321px] mx-auto px-4">
       <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-10 mt-10">
-        {/* Main Image Placeholder */}
         <div className="w-full lg:w-1/2 flex items-center justify-center">
           <div className="w-[400px] h-[400px]  flex items-center justify-center">
-            {/* Replace with your image */}
             <img className="w-full h-full" src={MainImg.src} alt="" />
           </div>
         </div>

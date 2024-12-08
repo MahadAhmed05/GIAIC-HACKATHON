@@ -23,24 +23,31 @@ export default function Home() {
         {/* Main Container */}
         <div className="max-w-[1321px] w-full">
           {/* Header Section */}
-          <section className="flex flex-col md:flex-row items-center justify-between py-10 px-20 bg-[#F0F2F3]">
+          <section className="flex flex-col md:flex-row items-center justify-between py-10 px-6 mt-6 md:px-20 bg-[#F0F2F3]">
+            {/* Left Text Section */}
             <div className="text-center md:text-left">
               <h1 className="text-4xl font-bold text-gray-900 leading-tight">
                 Best Furniture Collection <br /> For Your Interior.
               </h1>
-              <button className="mt-6 px-6 py-3 bg-blue-500 text-white rounded-md shadow-lg hover:bg-blue-600">
+              <button className="mt-6 px-6 py-3 bg-[#029FAE] text-white rounded-md shadow-lg hover:bg-[#37b2bd]">
                 Shop Now →
               </button>
             </div>
-            <div className="mt-8 md:mt-0">
-              <div className="w-[434px] h-[500px]">
-                <img className="w-full h-full" src={HeroImg.src} alt="" />
+
+            {/* Right Image Section */}
+            <div className="mt-8 md:mt-0 flex justify-center">
+              <div className="w-full max-w-[434px] h-auto overflow-hidden">
+                <img
+                  className="w-full h-full object-cover rounded-lg"
+                  src={HeroImg.src}
+                  alt="Furniture Collection"
+                />
               </div>
             </div>
           </section>
 
           {/* Logos Section */}
-          <section className="flex flex-wrap items-center justify-between gap-6 mb-10 mt-8">
+          <section className="flex flex-wrap items-center justify-between gap-6 m-10">
             <div className="w-[85px] h-[87px] ">
               <img className="w-full h-full" src={Logo1.src} alt="" />
             </div>
@@ -147,9 +154,7 @@ export default function Home() {
               Top Categories
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {/* Category Card */}
               <div className="relative rounded-lg w-full max-w-[424px] mx-auto h-[300px] sm:h-[424px] overflow-hidden">
-                {/* Background Image */}
                 <img
                   src={TopCategory1.src}
                   alt="Category"

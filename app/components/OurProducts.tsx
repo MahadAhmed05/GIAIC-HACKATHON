@@ -1,4 +1,4 @@
-"use client"; // Ensures it's a Client Component
+"use client";
 import Feature1 from "../Images/FeatureProduct1.png";
 import Feature2 from "../Images/FeatureProduct2.png";
 import Feature3 from "../Images/Explore1.png";
@@ -33,8 +33,7 @@ const ProductsPage = () => {
                 <p className="text-xl font-bold">$20</p>
                 <p className="line-through text-sm text-gray-500">$39</p>
               </div>
-              <div className="w-10 h-10 bg-gray-400 rounded-full self-end mt-2"></div>{" "}
-              {/* Placeholder for cart logo */}
+              <div className="w-10 h-10 bg-gray-400 rounded-full self-end mt-2"></div>
             </div>
           </div>
 
@@ -117,8 +116,7 @@ const ProductsPage = () => {
                 <p className="text-xl font-bold">$20</p>
                 <p className="line-through text-sm text-gray-500">$39</p>
               </div>
-              <div className="w-10 h-10 bg-gray-400 rounded-full self-end mt-2"></div>{" "}
-              {/* Placeholder for cart logo */}
+              <div className="w-10 h-10 bg-gray-400 rounded-full self-end mt-2"></div>
             </div>
           </div>
 

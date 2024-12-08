@@ -104,7 +104,7 @@ const Cart = () => {
               <p className="text-xl font-bold">Total</p>
               <p className="text-xl font-bold">$198.00</p>
             </div>
-            <button className="w-full bg-teal-500 text-white py-3 rounded-lg text-lg font-semibold hover:bg-teal-600">
+            <button className="w-full bg-teal-500 text-white py-3 rounded-3xl text-lg font-semibold hover:bg-teal-600">
               Member Checkout
             </button>
           </div>

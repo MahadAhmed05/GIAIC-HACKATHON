@@ -90,7 +90,7 @@ const AboutUs = () => {
       </div>
       <div className="flex flex-wrap gap-6 mb-12 justify-between">
         {/* Product Card 1 (Main Card) */}
-        <div className="w-[630px] h-[462px] bg-gray-200">
+        <div className="w-full sm:w-[630px] h-[462px]">
           <div className="h-[375px] rounded-lg mb-4">
             <img
               className="w-full h-full object-cover"
@@ -103,7 +103,7 @@ const AboutUs = () => {
         </div>
 
         {/* Product Card 2 */}
-        <div className="w-[305px] h-[462px] bg-gray-200">
+        <div className="w-full sm:w-[305px] h-[462px]">
           <div className="h-[375px] rounded-lg mb-4">
             <img
               className="w-full h-full object-cover"
@@ -116,7 +116,7 @@ const AboutUs = () => {
         </div>
 
         {/* Product Card 3 */}
-        <div className="w-[305px] h-[462px] bg-gray-200 ">
+        <div className="w-full sm:w-[305px] h-[462px]">
           <div className="h-[375px] rounded-lg mb-4">
             <img
               className="w-full h-full object-cover"
@@ -125,7 +125,7 @@ const AboutUs = () => {
             />
           </div>
           <h3 className="text-lg font-semibold ml-4">The Dandy chair</h3>
-          <p className="text-gray-600 ml-4">$99.00 </p>
+          <p className="text-gray-600 ml-4">$99.00</p>
         </div>
       </div>
     </div>

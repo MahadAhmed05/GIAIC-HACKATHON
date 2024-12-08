@@ -10,10 +10,9 @@ const Footer = () => {
       <div className="max-w-[1321px] mx-auto px-4 lg:px-8">
         {/* Footer Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Brand Info */}
+          
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              {/* Placeholder for logo */}
               <div className="w-10 h-10">
                 <img src={Logo.src} alt="" />
               </div>
@@ -28,19 +27,15 @@ const Footer = () => {
               <div className="w-8 h-8">
                 <img className="w-full h-full" src={Facebook.src} alt="" />
               </div>
-              {/* Placeholder for social icon */}
               <div className="w-8 h-8">
                 <img className="w-full h-full" src={Instagram.src} alt="" />
               </div>
-              {/* Placeholder for social icon */}
               <div className="w-8 h-8">
                 <img className="w-full h-full" src={Pinterest.src} alt="" />
               </div>
-              {/* Placeholder for social icon */}
               <div className="w-8 h-8">
                 <img className="w-full h-full" src={Youtube.src} alt="" />
               </div>
-              {/* Placeholder for social icon */}
             </div>
           </div>
 

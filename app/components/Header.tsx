@@ -19,7 +19,9 @@ const Header = () => {
           <Link href="../FAQs">
             <button className="hover:underline">FAQs</button>
           </Link>
-          <button className="hover:underline">Need Help</button>
+          <Link href="../ContactUs">
+            <button className="hover:underline">Need Help</button>
+          </Link>
         </div>
       </div>
 
@@ -31,14 +33,14 @@ const Header = () => {
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 rounded-lg">
               <img src={LogoIcon.src} alt="" />
-            </div>{" "}
-            {/* Placeholder for logo */}
+            </div>
+
             <span className="text-lg font-semibold">Comforty</span>
           </div>
 
           {/* Hamburger Menu - Mobile */}
           <button
-            className="lg:hidden text-2xl"
+            className="lg:hidden text-2xl ml-auto"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             ☰
@@ -50,8 +52,7 @@ const Header = () => {
               <button className="bg-white border rounded-full p-2 flex items-center space-x-2 shadow-md hover:shadow-lg">
                 <div className="w-8 h-8 rounded-full">
                   <img src={CartLogo.src} alt="" />
-                </div>{" "}
-                {/* Placeholder for cart icon */}
+                </div>
                 <span className="text-sm">Cart</span>
               </button>
               <span className="absolute top-0 right-0 bg-teal-500 text-white text-xs rounded-full px-1.5">
@@ -82,8 +83,7 @@ const Header = () => {
           </Link>
         </nav>
         {/* Contact - Right side */}
-        <div className="w-45 h-8">Contact: (805) 555-0111</div>{" "}
-        {/* Placeholder for contact */}
+        <div className="w-45 h-8">Contact: (805) 555-0111</div>
       </div>
 
       {/* Mobile Menu */}
@@ -110,17 +110,15 @@ const Header = () => {
 
           {/* Contact and Cart - Mobile */}
           <div className="mt-4 space-y-2">
-            <div className="w-40 h-8">
-              Contact: (805) 555-0111
-            </div>{" "}
-            {/* Placeholder for contact */}
-            <button className="w-full bg-white border rounded-md p-2 flex justify-center items-center space-x-2 shadow-md hover:shadow-lg">
-              <div className="w-8 h-8 rounded-full">
-                <img src={CartLogo.src} alt="" />
-              </div>{" "}
-              {/* Placeholder for cart icon */}
-              <span className="text-sm">Cart</span>
-            </button>
+            <div className="w-40 h-8">Contact: (805) 555-0111</div>
+            <Link href="../Cart">
+              <button className="w-full bg-white border rounded-md p-2 flex justify-center items-center space-x-2 shadow-md hover:shadow-lg">
+                <div className="w-8 h-8 rounded-full">
+                  <img src={CartLogo.src} alt="" />
+                </div>
+                <span className="text-sm">Cart</span>
+              </button>
+            </Link>
           </div>
         </nav>
       )}
