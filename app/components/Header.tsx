@@ -68,15 +68,15 @@ const Header = () => {
           <Link href="/" className="text-teal-500 hover:underline">
             Home
           </Link>
-          <a href="/" className="hover:underline">
+          <Link href="../Singleproduct" className="hover:underline">
             Shop
-          </a>
+          </Link>
           <Link href="../Product" className="hover:underline">
             Product
           </Link>
-          <a href="/" className="hover:underline">
+          <Link href="/" className="hover:underline">
             Pages
-          </a>
+          </Link>
           <Link href="../About" className="hover:underline">
             About
           </Link>
@@ -91,21 +91,21 @@ const Header = () => {
         <nav className="bg-[#F8F9FA] p-4 text-sm font-medium lg:hidden max-w-[1321px] mx-auto">
           {/* Links */}
           <div className="space-y-2">
-            <a href="/" className="block text-teal-500 hover:underline">
+            <Link href="/" className="block text-teal-500 hover:underline">
               Home
-            </a>
-            <a href="/" className="block hover:underline">
+            </Link>
+            <Link href="../Singleproduct" className="block hover:underline">
               Shop
-            </a>
-            <a href="/" className="block hover:underline">
+            </Link>
+            <Link href="../Product" className="block hover:underline">
               Product
-            </a>
-            <a href="/" className="block hover:underline">
+            </Link>
+            <Link href="/" className="block hover:underline">
               Pages
-            </a>
-            <a href="/" className="block hover:underline">
+            </Link>
+            <Link href="../About" className="block hover:underline">
               About
-            </a>
+            </Link>
           </div>
 
           {/* Contact and Cart - Mobile */}

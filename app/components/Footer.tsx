@@ -1,3 +1,9 @@
+import Logo from "../Images/Logo Icon.png";
+import Facebook from "../Images/fb.png";
+import Instagram from "../Images/insta.png";
+import Pinterest from "../Images/pint.png";
+import Youtube from "../Images/yt.png";
+
 const Footer = () => {
   return (
     <footer className="bg-[#F8F9FA] py-8 border-t border-gray-200">
@@ -8,7 +14,9 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               {/* Placeholder for logo */}
-              <div className="w-10 h-10 bg-gray-300 rounded-lg"></div>
+              <div className="w-10 h-10">
+                <img src={Logo.src} alt="" />
+              </div>
               <span className="text-lg font-semibold">Comforty</span>
             </div>
             <p className="text-sm text-gray-600">
@@ -17,13 +25,21 @@ const Footer = () => {
             </p>
             {/* Social Icons */}
             <div className="flex space-x-4 mt-4">
-              <div className="w-8 h-8 bg-red-300 rounded-full"></div>{" "}
+              <div className="w-8 h-8">
+                <img className="w-full h-full" src={Facebook.src} alt="" />
+              </div>
               {/* Placeholder for social icon */}
-              <div className="w-8 h-8 bg-blue-300 rounded-full"></div>{" "}
+              <div className="w-8 h-8">
+                <img className="w-full h-full" src={Instagram.src} alt="" />
+              </div>
               {/* Placeholder for social icon */}
-              <div className="w-8 h-8 bg-green-300 rounded-full"></div>{" "}
+              <div className="w-8 h-8">
+                <img className="w-full h-full" src={Pinterest.src} alt="" />
+              </div>
               {/* Placeholder for social icon */}
-              <div className="w-8 h-8 bg-yellow-300 rounded-full"></div>{" "}
+              <div className="w-8 h-8">
+                <img className="w-full h-full" src={Youtube.src} alt="" />
+              </div>
               {/* Placeholder for social icon */}
             </div>
           </div>
@@ -120,15 +136,7 @@ const Footer = () => {
         {/* Footer Bottom Section */}
         <div className="mt-8 flex flex-col lg:flex-row justify-between items-center text-sm text-gray-500">
           <p>© 2021 - Blogy - Designed & Developed by Zakirsoft</p>
-          <div className="mt-4 lg:mt-0 flex space-x-4">
-            {/* Placeholder for payment icons */}
-            <div className="w-12 h-8 bg-purple-300 rounded-md"></div>{" "}
-            {/* Placeholder for PayPal */}
-            <div className="w-12 h-8 bg-pink-300 rounded-md"></div>{" "}
-            {/* Placeholder for American Express */}
-            <div className="w-12 h-8 bg-orange-300 rounded-md"></div>{" "}
-            {/* Placeholder for Visa */}
-          </div>
+          <div className="w-[40] h-[8] mt-4 "></div>
         </div>
       </div>
     </footer>
