@@ -1,9 +1,8 @@
 "use client";
-import Cart from "../Cart/page";
+import Link from "next/link";
+import { useState } from "react";
 import LogoIcon from "../Images/Logo Icon.png";
 import CartLogo from "../Images/cart-logo.png";
-import Link from "next/link";
-import React, { useState } from "react";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
