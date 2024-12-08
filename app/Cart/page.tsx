@@ -1,4 +1,6 @@
 import React from "react";
+import Img1 from "../Images/Explore1.png";
+import Img2 from "../Images/TopCategory1.png";
 
 const Cart = () => {
   return (
@@ -11,7 +13,9 @@ const Cart = () => {
           {/* Item 1 */}
           <div className="flex items-center justify-between bg-white p-4 rounded-lg shadow-md mb-4">
             <div className="flex items-center space-x-4">
-              <div className="w-24 h-24 bg-orange-200 rounded"></div>
+              <div className="w-24 h-24 bg-orange-200 rounded">
+                <img className="w-full h-full" src={Img1.src} alt="" />
+              </div>
               <div>
                 <h3 className="text-lg font-semibold">Library Stool Chair</h3>
                 <p className="text-sm text-gray-500">
@@ -47,7 +51,9 @@ const Cart = () => {
           {/* Item 2 */}
           <div className="flex items-center justify-between bg-white p-4 rounded-lg shadow-md">
             <div className="flex items-center space-x-4">
-              <div className="w-24 h-24 bg-gray-300 rounded"></div>
+              <div className="w-24 h-24 bg-gray-300 rounded">
+                <img className="w-full h-full" src={Img2.src} alt="" />
+              </div>
               <div>
                 <h3 className="text-lg font-semibold">Library Stool Chair</h3>
                 <p className="text-sm text-gray-500">
